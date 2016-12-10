@@ -55,6 +55,7 @@ def to_fermat(message):
     logger.debug("HTTP Status from fermat was %s" % (r.status_code))
     logger.debug("Response body from fermat was [%s]" % (r.text))
 
+
 def on_message(client, userdata, message):
     """Called whenever a message is received. 
 
